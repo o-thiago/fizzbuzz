@@ -43,6 +43,6 @@ impl From<i32> for FizzBuzz {
 
 fn main() {
     for value in (1..101).map(Into::<FizzBuzz>::into) {
-        println!("{}", Into::<String>::into(&value));
+        println!("{}", value);
     }
 }
